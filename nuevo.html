@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>web</title>
+    <!--<link rel="stylesheet" href="estilo.css">-->
+    <link rel="icon" href="batman.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+   <style>
+    .bi{
+      font-size: 50px;
+      color: blue;
+    }
+    .bi-facebook{
+      color: blue;
+    }
+    .bi-facebook:hover{
+      color: black;
+    }
+   </style>
+  
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        height: 100%;
+        width: 100%;
+      </nav >
+</header>
+
+<img  src="https://ia-colombia.co/wp-content/uploads/2022/09/shutterstock_587768567.png">
+<!--<script src="nuevo.js"> </script>-->
+<script src="nuevo.js"> </script>
+
+<h1>Formulario de contacto</h1>
+<form action="enviar.php" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico">
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" placeholder="Escriba su mensaje"></textarea>
+
+    <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+    <input type="submit" value="Enviar">
+</form>
+
+<div class="red-">
+  <a href="https://icons.getbootstrap.com/" target="_blank"><i class="bi bi-facebook"></i></i></a>
+  </div>
+
+
+
+</body>
+
+</html>
